@@ -22,21 +22,6 @@
     ],
     "modules": [
         {
-            "name": "boost",
-            "buildsystem": "simple",
-            "build-commands": [
-                "./bootstrap.sh --prefix=${FLATPAK_DEST} --with-libraries=serialization",
-                "./b2 install variant=release link=shared runtime-link=shared cxxflags=\"$CXXFLAGS\" linkflags=\"$LDFLAGS\" -j $FLATPAK_BUILDER_N_JOBS"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.86.0/source/boost_1_86_0.tar.gz",
-                    "sha256": "2575e74ffc3ef1cd0babac2c1ee8bdb5782a0ee672b1912da40e5b4b591ca01f"
-                }
-            ]
-        },
-        {
             "name": "nlohmann-json",
             "buildsystem": "cmake-ninja",
             "config-opts": [
@@ -80,8 +65,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/emmaexe/ntfyDesktop/archive/refs/tags/v1.2.0.tar.gz",
-                    "sha256": "dd4465d1b8b428f669ebb9b1c9c44e0988180a9bc42e3c97aa4bcbd574205164"
+                    "url": "https://github.com/emmaexe/ntfyDesktop/archive/refs/tags/v1.3.0.tar.gz",
+                    "sha256": "9cc53ca087a51767871b05dc6e390c4d1c943e429956e70be1d2acf4fde3f20c"
                 }
             ]
         }
