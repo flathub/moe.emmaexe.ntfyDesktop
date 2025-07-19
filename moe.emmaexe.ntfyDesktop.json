@@ -1,7 +1,7 @@
 {
     "id": "moe.emmaexe.ntfyDesktop",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.8",
+    "runtime-version": "6.9",
     "sdk": "org.kde.Sdk",
     "command": "ntfyDesktop",
     "finish-args": [
@@ -32,8 +32,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/nlohmann/json",
-                    "tag": "v3.11.3",
-                    "commit": "9cca280a4d0ccf0c08f47a99aa71d1b0e52f8d03",
+                    "tag": "v3.12.0",
+                    "commit": "55f93686c01528224f448c19128836e7df245f72",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/nlohmann/json/releases/latest",
@@ -65,8 +65,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/emmaexe/ntfyDesktop/archive/refs/tags/v1.4.0.tar.gz",
-                    "sha256": "ac3a32e5d00930fec7afe8d266c8108d04714b85de4abe97d2f87619e1b7c8f5"
+                    "url": "https://github.com/emmaexe/ntfyDesktop/archive/refs/tags/v1.5.0.tar.gz",
+                    "sha256": "6f9a87e8959f6b4a87e24bd9db1b9797f8386d22e02e386a18e7bdbb66a1e96d"
                 }
             ]
         }
