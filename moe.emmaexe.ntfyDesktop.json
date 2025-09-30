@@ -69,8 +69,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/emmaexe/ntfyDesktop/archive/refs/tags/v1.5.1.tar.gz",
-                    "sha256": "1b9a94676070b33b848daf7bc7bf5c5043a55f77388ea936a768c65ea5d7436b"
+                    "url": "https://github.com/emmaexe/ntfyDesktop/archive/refs/tags/v1.6.0.tar.gz",
+                    "sha256": "78ba23a78ea2adffc7ee7abb5c659a77109c45a8799a8e73c8bc0bc7caf093fc"
                 }
             ]
         }
