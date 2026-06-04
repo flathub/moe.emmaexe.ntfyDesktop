@@ -1,7 +1,7 @@
 {
     "id": "moe.emmaexe.ntfyDesktop",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.9",
+    "runtime-version": "6.10",
     "sdk": "org.kde.Sdk",
     "command": "ntfyDesktop",
     "finish-args": [
@@ -15,7 +15,7 @@
     ],
     "cleanup": [
         "/include",
-        "/lib/cmake",
+        "/cmake",
         "/share/cmake",
         "/share/pkgconfig",
         "*.a"
@@ -55,7 +55,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/emmaexe/emojicpp.git",
-                    "tag": "v3.0.0"
+                    "tag": "v3.0.0",
+                    "commit": "e0ff400696d4113c0d30b6577112d618429fb81d"
                 }
             ]
         },
